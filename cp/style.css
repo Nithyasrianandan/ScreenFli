@@ -1,0 +1,72 @@
+body{
+    background-image: linear-gradient(rgb(230, 19, 65), rgb(169, 43, 70)) , url(./images/login-bg.jpg);
+    height: 150vh;
+    width: 100%;
+}
+.login-top{
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.login-top img{
+    width: 150px;
+}
+
+
+.login-box{
+    background-color:linear-gradient( rgba(169, 43, 70));
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.small-text{
+    font-size: 0.7rem;
+}
+
+.form-control{
+    box-shadow: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+   /*Codando*/ 
+}
+
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button {
+    background-color: rgb(248, 246, 246);
+    color: rgb(222, 47, 47);
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: rgb(220, 20, 30);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.login-button:active {
+    background-color: rgb(178, 7, 16);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+}
